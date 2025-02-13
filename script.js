@@ -1,14 +1,14 @@
 var swiper = new Swiper(".mySwiper-1",{
-    slidesPerview:1,
-    spaceBetween:30,
-    loop:true,
-    pagination: {
+    slidesPerview:1, /* Esto signifiaca que va a mostrar una diapositiva a la vez*/
+    spaceBetween:30, /* Aca creamos un espacio de 30 px entre diapositivas*/
+    loop:true,/*Este es para que sea un carrucel infinito*/
+    pagination: { /*Esto crea en la parte de abajo puntos para que el usuario interactue*/
         el:".swiper-pagination",
         clickable: true,
     },
-    navigation: {
+    navigation: { /*Aca ponemos a funcionar el tema de los bontones que pusimos en el HTML */
         nextEl:".swiper-button-next",
-        prevtEl:".swiper-button-prev",
+        prevEl:".swiper-button-prev",
     }
 })
 
@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper-2",{
     loopFillGroupWithBlank:true,
     navigation: {
         nextEl:".swiper-button-next",
-        prevtEl:".swiper-button-prev",
+        prevEl:".swiper-button-prev",
     },
     breakpoints : {
         0:{
