@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>Repaso_desarrollo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> <!-- Esta es una libreria en este caso me permitio crear un carrusel deslizable-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,14 +13,14 @@
     <header>
         <div class="menu container">
 
-            <img class="logo-1" src="Logo nuevo.png" alt="">
-            <input type="checkbox" id="menu" />
-            <label for="menu">
+            <img class="logo-1" src="Logo nuevo.png" alt=""> <!-- Aca creamos esta imagen para poder poner nuestro logo -->
+            <input type="checkbox" id="menu" /> <!--  se usa para mostrar u ocultar el menú en dispositivos móviles. -->
+            <label for="menu">   <!--eL LABEL lo que hace es enlazar la imagen del icno con el checkkbox -->
                 <img src="menu.png" class="menu-icono" alt="">
             </label>
-            <nav class="navbar">
+            <nav class="navbar">  <!-- el nav nos sirve para definir nuestra barra de navegacion -->
                 <div class="menu-1">
-                    <ul>
+                    <ul>  <!--  Aca iniciamos la lista desordenada par el menu con el UL -->
                         <li><a href="#1">Inicio</a></li>
                         <li><a href="#2">Servicios</a></li>
                         <li><a href="#3">Acerca de mi </a></li>
@@ -33,19 +33,16 @@
 
            
                     <div class="socials">
-                        <a href="">
                             <div class="social">
                                 <img src="s1.svg" alt="">
 
                             </div>
                         </a>
-                        <a href="">
                             <div class="social">
                                 <img src="s2.svg" alt="">
 
                             </div>
                         </a>
-                        <a href="">
                             <div class="social">
                                 <img src="s3.svg" alt="">
 
@@ -59,15 +56,15 @@
 
         </div>
 
-        <div class="header-content container">
+        <div class="header-content container">  <!-- Aca agrupamos el contenido principal del encabezado -->
 
-            <div class="swiper mySwiper-1">
-                <div class="swiper-wrapper" id="1">
+            <div class="swiper mySwiper-1">  <!--Aca definimos un slider usando el Swiper.js que es una libreria de js -->
+                <div class="swiper-wrapper" id="1"> <!-- Esto lo que hace es contener las diapositibas del Swiper-->
 
 
                     <div class="swiper-slide">
                         <div class="slider">
-                            <div class="slider-txt">
+                            <div class="slider-txt"> <!-- Esta es la primer diapositiva del slider-->
                                 <h1>CCS</h1>
                                 <p>
                                     CSS (Cascading Style Sheets) es un lenguaje de diseño gráfico que se utiliza para
@@ -92,7 +89,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="slider">
-                            <div class="slider-txt">
+                            <div class="slider-txt"> <!-- Esta es la Segunda diapositiva del slider-->
                                 <h1>Html</h1>
                                 <p>
                                     El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para
@@ -117,7 +114,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="slider">
-                            <div class="slider-txt">
+                            <div class="slider-txt"> <!-- Esta es la tercera diapositiva del slider-->
                                 <h1>JavaScript</h1>
                                 <p>
                                     JavaScript es un lenguaje de programación que los desarrolladores utilizan para
@@ -144,7 +141,7 @@
                     </div>
 
 
-                </div>
+                </div>  <!-- Este contenedor agrega los botones del carrusel-->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
